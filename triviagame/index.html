@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato"> 
+	<script type="text/javascript" src="assets/javascript/main.js"></script>
+	<title>Trivia</title>;
+</head>
+<body>
+	<h1>Totally Trivial Trivia</h1>
+	<form id = "quiz" name ="quiz">
+
+	<p>True or False, elephants walk as quietly as cats.</p>
+
+  <input id= "textbox" type= "text" name = "question1">
+
+	<p>What city is the capital of Texas?</p>
+  <input type="radio" id = "mc" name="question2" value="Dallas" checked> Dallas<br>
+  <input type="radio" id = "mc" name="question2" value="Austin" checked> Austin<br>
+  <input type="radio" id = "mc" name="question2" value="Houston" checked> Houston<br>
+
+  <p>What is on the Canadian flag?</p>
+  <input type="radio" id = "mc" name="question3" value="Mallard" checked> Mallard<br>
+  <input type="radio" id = "mc" name="question3" value="Mounty" checked> Mounty<br>
+  <input type="radio" id = "mc" name="question3" value="Maple Leaf" checked> Maple Leaf<br>
+
+  <p>What president dropped the atomic bomb on Japan?</p>
+  <input type="radio" id = "mc" name="question4" value="FDR" checked> FDR<br>
+  <input type="radio" id = "mc" name="question4" value="Truman" checked> Truman<br>
+  <input type="radio" id = "mc" name="question4" value="Lincoln" checked> Lincoln<br>
+
+  <p>What is the largest planet in our solar system?</p>
+  <input type="radio" id = "mc" name="question5" value="Jupiter" checked> Jupiter<br>
+  <input type="radio" id = "mc" name="question5" value="Mars" checked> Mars<br>
+  <input type="radio" id = "mc" name="question5" value="Saturn" checked> Saturn<br>
+
+  <p>Who is known to be the inventor of Facebook?</p>
+  <input type="radio" id = "mc" name="question6" value="Bill Gates" checked> Bill Gates<br>
+  <input type="radio" id = "mc" name="question6" value="Steve Jobs" checked> Steve Jobs<br>
+  <input type="radio" id = "mc" name="question6" value="Mark Zuckerberg" checked> Mark Zuckerberg<br>
+
+  <input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+
+  </form>
+
+  <div id = "after_submit">
+  <p id = "number_correct"></p>
+  </div>
+  </html>
+</body>
+</html>
